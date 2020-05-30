@@ -1,8 +1,12 @@
 # Trust Fund Buddy - Good
 # Intro to debugging - demonstrates a logical error
 
-# LOGICAL ERROR - code runs fine, but does not produce the expected result
-# SYNTAX ERROR - usually a typo, means you are not conforming to Python's rules
+# SYNTAX ERROR - you have broken Python's rules; usually just a typo
+#   e.g. forgot to close your parentheses
+# RUNTIME ERROR - an error is encountered while running the program; also called EXCEPTIONS
+#   e.g. tried to divide by zero
+# LOGICAL ERROR - code is runs fine, but does not produce the expected result; also called SEMANTIC ERRORS
+#   e.g. concatenating strings when you meant to add numbers
 # TYPE ERROR - you used the wrong type of value somewhere in an expression or as an argument
 
 print(
