@@ -3,8 +3,8 @@
 # Intro to debugging - demonstrates a syntax, runtime, and logical errors
 # Instructions: Step through this program line-by-line, as if you were the Python interpreter.
 #		As you identify errors, categorize them as Syntax Errors, Runtime Errors, or Logic Errors.
-#		Run the program to see how Python reacts to the error and then debug them so the program 
-#		works as intended.
+#		Run the program to see how Python reacts to the error, read the entire error message,
+#		and then debug them so the program works as intended.
 
 print(
 """
