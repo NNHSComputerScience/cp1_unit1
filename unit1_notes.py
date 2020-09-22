@@ -32,9 +32,9 @@ The file name defaults to main.py when you open a new repl.it project.
 
 print("Hello, World.") # print() = function ; "Hello, World." = argument(string value)
 
-# FUNCTION - mini-program that goes and accomplishes some task for us
-# ARGUMENT - information you send into a function
-# STRING - series of characters enclosed in quotes (more to come...)
+# FUNCTION - sub-routine, or mini-program, that goes and accomplishes some task for us (e.g. print())
+# ARGUMENT - information you send into a function (e.g. "Hello, World.")
+# STRING - series of characters enclosed in quotes (more to come...) (e.g. "Hello, World")
 
 """
 CHALLENGE: print the following:
@@ -53,7 +53,7 @@ print()
 #   cares about indentation
 #   is case sensitive
 
-# SYNTAX ERROR: Python does not recognize something (usually a typo). RED!!!
+# SYNTAX ERROR: Python does not recognize something as valid (usually a typo). RED!!!
 #   e.g. 
 #   #prnt()
 
