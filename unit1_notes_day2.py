@@ -17,12 +17,24 @@ print ('Mr. C said, "Hello, class!"')
 # see more below
 print ()
 
-# triple quoted string: displays text WITH my typed formatting
+# triple quoted string: displays text WITH typed formatting
 print ("""This is a triple-quoted string
 and is displays text with my typed
 formatting included!""") 
-print ("""Mr. C said, 'Hello, class'!""")
+
+# ASCII art example:
+print(
+"""
+       _.---._    /\\
+    ./'       "--`\//
+  ./              o \          .-----.
+ /./\  )______   \__ \        ( help! )
+./  / /\ \   | \ \  \ \       /`-----'
+   / /  \ \  | |\ \  \7--- ooo ooo ooo ooo ooo ooo
+"""
+)
 print ()
+print ("""Mr. C said, 'Hello, class'!""")
 
 # line continuation; continuing a print (you should never need to scroll to the right!)
 #   repl.it will wrap lines for you if you enable that feature
