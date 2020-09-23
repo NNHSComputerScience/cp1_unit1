@@ -2,7 +2,7 @@
 Mr. Callaghan
 Date
 unit1_notes.py
-Unit 1 Notes: Types, Variables, & Simple I/O
+Unit 1 Notes: Math, Variables, User Input, & Types
 """
 
 print("--- DAY 3 --------------------------------------------")
