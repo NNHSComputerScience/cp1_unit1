@@ -37,8 +37,10 @@ print (11%3)    # modulus - gives the remainder
 # EXPRESSION - code that can be evaluated to a new value (like a math operation)
 #       e.g. 2+2
 
-# VARIABLE - a user-defined name, which provides a way to access
+# VARIABLE - a user-defined name in a program, which provides a way to access
 #   information stored in a computer's memory.
+#   Follow all variable naming rules and conventions.
+#   !!! review slides on variables: 
 
 name = "Monty"  # read as: assign the string value "Monty" to variable "name"
 
@@ -52,12 +54,14 @@ print(name)
 name = "Python" # we can't get "Monty" back!
 print(name)
 
-# getting info from the user
-name = input("What is your name? ")   # input function always returns a string
-                                     # must give it only 1 string argument  
-num = 7
-num2 = 7.7
-print(name, num, num2) # we can save any type of value
+# input function - Pauses program execution and gets typed text from the user of our program. Returns it to you as a string.
+#    Only accepts 1 string argument, which should be a prompt to the user on what to type. User presses 'Enter" when done typing.
+#    Tip: Including a space at the end of your string argument makes the prompt more user-friendly.
+name = input("What is your name? ")
+                              
+num = 7 # int
+num2 = 7.7 # float
+print(name, num, num2) # we can save any type of value in a variable
 
 # CHALLENGE: Store the user's first, middle, and last names in 3 separate 
 #       variables and then print the following: "Hello, <FIRST> <MIDDLE> <LAST>!"
@@ -81,5 +85,7 @@ num = int(input("Enter a number: "))    # nesting functions - one inside another
 # num = int(num)
 # num = float(num)
 print(num + num)
+
+# !!! do variable tracing programs using slides
  
 input("\nPress enter to exit.")
