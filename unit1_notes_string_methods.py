@@ -1,8 +1,8 @@
 """
 Mr. Callaghan
 Date
-unit1_note_day4.py
-Unit 1 Notes: Types, Variables, & Simple I/O
+unit1_notes_string_methods.py
+Unit 1 Notes: String methods & augmented assignment operators
 """
  
 print("\n-- Day 4 ---------------------------------------------------\n")
