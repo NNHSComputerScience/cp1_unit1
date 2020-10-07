@@ -8,12 +8,11 @@ Unit 1 Notes: String methods & augmented assignment operators
 print("\n-- Day 4 ---------------------------------------------------\n")
 # String methods & augmented assignment operators
 
-# STRING METHODS - methods that allows us to obtain new string values 
-# DOT NOTATION: <object variable>.<method name>()
-#   OBJECT = the thing on which you call the method (referenced by a variable) 
-#   METHOD = procedure you are calling on an object (parentheses are needed) 
+# OBJECT = the thing (String in this case) on which you call the method (referenced by a variable) 
+# METHOD = procedure you are calling on an object to manipulate it (parentheses are required) 
+# STRING METHODS - methods that allows us to obtain new string values from existing string values
+# DOT NOTATION: <object variable name>.<method name>(<potential arguments>)
 
-# RETURN VALUE - value received back from calling a function or method 
 '''
 Type in shell:
 >>> name = "Monty python"
@@ -28,11 +27,17 @@ Type in shell:
 >>> name.swapcase()
 'mONTY PYTHON'
 >>> name
-'Monty python' # name remains original value; methods return new strings 
+'Monty python'    # name remains its original value; methods return new strings rather than changing the exisiting string
+>>> name = name.upper()
+>>> name
+'MONTY PYTHON'
 ''' 
 
+# RETURN VALUE - value received back after calling a function or method. 
+
 # handling user input with string methods
-name = input("What is your name: ").title()
+name = input("What is your name: ").title() # chaining methods can save some typing
+#name.title() # must assing the new string!
 # name = name.title()
 print(name)
 
@@ -48,14 +53,8 @@ Test Question 1 - In the assignment statement above, identify the argument.
     converted to title format and assigns it to name.
 '''
 
-# Python Documentation - The Python Standard Library (python.org)
-#   Google 'python docs' followed by the ducumentation you are looking for.
-
-# ROUND and ABSOLUTE VALUE FUNCTIONS
-num = -3.3333333333333333333
-num = round(num, 2)  # round function - rounds float to a specified number of decimal places
-num = abs(num)       # absolute value function - returns absolute value of a number
-print(num)
+# Python Documentation for The Python Standard Library (python.org) is the official reference for language features.
+#   Google 'python docs' followed by the documentation you are looking for. (e.g. "Python docs String")
 
 # STRING FORMATTING - .format() method improves the ability to work with strings 
 #   and other data types. Python has fill-in-the-braces format, similar to 
@@ -65,6 +64,12 @@ discount = float(input('Enter discount percentage: '))
 newPrice = (1 - discount/100)*origPrice
 calculation = '${:.2f} discounted by {}% is ${:.2f}.'.format(origPrice, discount, newPrice)
 print(calculation) 
+
+# ROUND and ABSOLUTE VALUE FUNCTIONS are additional built-in functions (google "Python docs built-in functions")
+num = -3.3333333333333333333
+num = round(num, 2)  # round function - rounds float to a specified number of decimal places
+num = abs(num)       # absolute value function - returns absolute value of a number
+print(num)
 
 # AUGMENTED ASSIGNMENT OPERATORS - shortcut ways to combine math operators
 #   and assignment operator
