@@ -65,7 +65,8 @@ newPrice = (1 - discount/100)*origPrice
 calculation = '${:.2f} discounted by {}% is ${:.2f}.'.format(origPrice, discount, newPrice)
 print(calculation) 
 
-# ROUND and ABSOLUTE VALUE FUNCTIONS are additional built-in functions (google "Python docs built-in functions")
+# Python has certain built-in functions which are always available (google "Python docs built-in functions")
+#    e.g. print, input, int, float, str, round, and abs can be used in any program
 num = -3.3333333333333333333
 num = round(num, 2)  # round function - rounds float to a specified number of decimal places
 num = abs(num)       # absolute value function - returns absolute value of a number
