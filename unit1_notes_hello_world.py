@@ -1,8 +1,10 @@
+# hello_world.py  (name of the current file we are writing in)
+# import hello_world  (how we run our code, the hello_world.py file, from the main.py file in replit; main.py will always be executed when you press "run")
+# Python files end in the .py file extension and should not include any spaces in the filename
+
 """
 Name: Mr. Callaghan
 Date: 9/5/17
-Filename: unit1_notes.py  (or) unit1Notes.py  TALK ABOUT FILE NAMING STANDARDS & SAVING
-    .py is the Python file extension
 Title: Unit 1: Getting Started
 Description: Demonstrates Python basics and how to print to the screen.
 """ 
@@ -27,6 +29,8 @@ Use it to test code snippets immediately; not meant to write and save programs.
 The CODE EDITOR is the main window where we write and save our programs.
 The file name defaults to main.py when you open a new repl.it project.
 '''
+
+# in order to run a file in replit
 
 # print function: use to display text on output screen
 
