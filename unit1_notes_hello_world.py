@@ -22,7 +22,7 @@ Description: Demonstrates Python basics and how to print to the screen.
 # IDLE is the default Python IDE. We will use repl.it, a cloud IDE.
 
 '''
-The PYTHON SHELL is the window that has the Python version number in  repl.it. 
+The PYTHON SHELL (or CONSOLE) is the window that has the Python version number in  repl.it. 
 It is where we see the output after we run a program.
 Use it to test code snippets immediately; not meant to write and save programs. 
 
@@ -54,14 +54,15 @@ print()
 
 # Python:
 #   ignores blank lines and spaces (for the most part)
-#   cares about indentation
-#   is case sensitive
+#   cares about indentation (IndentationError: unexpected indent)
+#   is case sensitive (NameError: name 'Print' is not defined)
 
 # SYNTAX ERROR: Python does not recognize something as valid (usually a typo). RED!!!
 #   e.g. 
-#   #prnt()
+#   #prnt() # NameError: name 'prnt' is not defined
 
-# last line of code - include on ALL programs to keep console window open when finished.
-# SHOW EXAMPLE OF RUNNING A PROGRAM OUTSIDE IDLE
+# forgeting to close parentheses is a common syntax error
+#		e.g. SyntaxError: invalid syntax with a misleading line number
+# print("Hello, world"
 
-input("\nPress enter to exit.") 
+print("Hello again.")
