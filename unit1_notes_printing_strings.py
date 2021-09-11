@@ -6,8 +6,10 @@ Description: Printing strings and escape sequences
 """
 
 # Printing String Values
-# STRING = Our first 'type' of value in Python.  It is a series of characters
+# STRING - Our first 'type' of value in Python.  It is a series of characters
 #       surrounded by single, double, or triple quotes.
+# TYPE - A category of data in a programming langauge that determines what kinds of operations can be performed.
+#      Classes, like the Turtle class, are types.
 type("test string") # in shell
 
 # printing quotes
