@@ -1,11 +1,10 @@
 """
-Mr. Callaghan
-Date
-Unit 1 notes - day 2
-Printing strings and escape sequences
+Name: Mr. Callaghan
+Date:
+Title: Unit 1 notes - printing strings
+Description: Printing strings and escape sequences
 """
 
-print("--- DAY 2 --------------------------------------------")
 # Printing String Values
 # STRING = Our first 'type' of value in Python.  It is a series of characters
 #       surrounded by single, double, or triple quotes.
@@ -48,13 +47,19 @@ print ()
 print("Hello, World." , "How are you?")
 # input("Press enter to exit." , "Please.")
 
-# escape sequences (for strings): 
-#   \t , \n , \\, \"  
+# ESCAPE SEQUENCES - characters used inside of strings to gain more control over the behavior of the text.
+#   \t (tab)
 print ("Name\tAge\tJob\t")
 print ("Matt Callaghan\t32\tTeacher")
+
+# \n (new line)
 print ("Insert new line below!\n")
 print ("Line 2")
+
+# \\ (backslash)
 print ("MM\\DD\\YYYY")
+
+# \"  \' (quotation)
 print ("Mr. C said, \"Hello, class!\"")
 print ()
 
