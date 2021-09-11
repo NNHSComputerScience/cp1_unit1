@@ -10,6 +10,8 @@ Description: Printing strings and escape sequences
 #       surrounded by single, double, or triple quotes.
 # TYPE - A category of data in a programming langauge that determines what kinds of operations can be performed.
 #      Classes, like the Turtle class, are types.
+# The type() function will return the type of a value
+#      e.g.,
 type("test string") # in shell
 
 # printing quotes
