@@ -1,14 +1,13 @@
 """
-Mr. Callaghan
-Date
-unit1_notes.py
-Unit 1 Notes: Math, Variables, User Input, & Types
+Name: Mr. Callaghan
+Date:
+Title: Unit 1 Notes - Math, Variables, User Input, & Types
+Description: Working with fundametal data types and operations in Python. Storing data in variables. Interacting with a user.
 """
 
-print("--- DAY 3 --------------------------------------------")
 # Math operators, variables, user input, & types
 
-# CONCATENATION: 2 strings combined into 1
+# CONCATENATION: Two strings combined into one using the plus sign.
 print ("cup")
 print ("cake")
 print ("cup" + "cake")
@@ -19,9 +18,10 @@ print ("happy")
 print ("happy" * 100)    # can't divide or subtract a string
 print ()
 
-# Numbers in Python (2 new 'types' of values):
+# Numbers types in Python:
 #   INTEGER(int) - whole numbers, no decimal point 
 #   FLOATING POINT NUMBER (float) - decimal number
+
 # Math Operators:
 #   + , - , / , //, * , ** , % #CHALLENGE: predict what will happen and run
 print (2+2)
@@ -32,7 +32,7 @@ print (2*7)
 print (3**3)    # exponents
 print (11%3)    # modulus - gives the remainder
  
-# STATEMENT - a complete thought in programming (usually one complete line of code)
+# STATEMENT - a complete thought in a programming language (equivalent to one complete line of code)
 #       e.g. print(2+2)
 # EXPRESSION - code that can be evaluated to a new value (like a math operation)
 #       e.g. 2+2
@@ -40,11 +40,24 @@ print (11%3)    # modulus - gives the remainder
 # VARIABLE - a user-defined name in a program, which provides a way to access
 #   information stored in a computer's memory.
 #   Follow all variable naming rules and conventions.
-#   !!! review slides on variables: 
+#   !!! review slides on variables:
 
 name = "Monty"  # read as: assign the string value "Monty" to variable "name"
 
 print(name) 
+
+# Rules for legal variable names:
+#  - Contain only numbers, letters, and underscores
+#  - Can’t start with a number
+#  - Can’t be a reserved keyword in Python (print, input, type, etc.)
+
+# Guidelines for good variable names:
+#  - Be descriptive of a variable's contents
+#  - Be consistent with formatting
+#  - Follow conventions: 
+#     - names that begin with an underscore have a special meaning
+#     - don’t begin with a capital letter 
+#  - Consider the trade-off of long names
 
 # ASSIGNMENT STATEMENT: assigns a value to a variable;
 #   creates (INITIALIZES) variable if necessary
@@ -54,7 +67,7 @@ print(name)
 name = "Python" # we can't get "Monty" back!
 print(name)
 
-# input function - Pauses program execution and gets typed text from the user of our program. Returns it to you as a string.
+# INPUT function - Pauses program execution and gets typed text from the user of our program. Returns it to you as a string.
 #    Only accepts 1 string argument, which should be a prompt to the user on what to type. User presses 'Enter" when done typing.
 #    Tip: Including a space at the end of your string argument makes the prompt more user-friendly.
 name = input("What is your name? ")
@@ -88,4 +101,3 @@ print(num + num)
 
 # !!! do variable tracing programs using slides
  
-input("\nPress enter to exit.")
