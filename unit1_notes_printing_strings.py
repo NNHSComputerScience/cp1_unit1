@@ -41,14 +41,18 @@ print ("""Mr. C said, 'Hello, class'!""")
 
 # line continuation; continuing a print (you should never need to scroll to the right!)
 #   repl.it will wrap lines for you if you enable that feature
-print ("This is line 1, ", end="") #end="" removes the new line in a print 
-print ("This is line 2")
-print ()
+#   including end="" as the final argument in a print function removes the implicit new line character included in a print statement
+# e.g.,
+print ("This is line 1, ", end="") 
+print ("This is line 2,", end=" ")
+print ("This is line 3.")
+print("This is line 4.")
 
 # adding more than 1 argument
 #   some functions can accept more than 1 argument
 #   print() can accept unlimited arguments; input() only accepts 1 argument
 print("Hello, World." , "How are you?")
+input("Press enter to exit.")
 # input("Press enter to exit." , "Please.")
 
 # ESCAPE SEQUENCES - characters used inside of strings to gain more control over the behavior of the text.
