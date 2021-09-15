@@ -2,7 +2,7 @@
 Name: Mr. Callaghan
 Date:
 Title: Unit 1 notes - printing strings
-Description: Printing strings and escape sequences
+Description: Printing strings to the console and escape sequences
 """
 
 # Printing String Values
@@ -14,11 +14,13 @@ Description: Printing strings and escape sequences
 #      e.g.,
 type("test string") # in shell
 
+print("Hello, world.") # printing a string
+
 # printing quotes
 print ("Mr. C said, 'Hello, class'!")
 print ('Mr. C said, "Hello, class!"')
-# see more below
-print ()
+print ("""Mr. C said, 'Hello, class'!""")
+print()
 
 # triple quoted string: displays text WITH typed formatting
 print ("""This is a triple-quoted string
@@ -37,14 +39,13 @@ print(
 """
 )
 print ()
-print ("""Mr. C said, 'Hello, class'!""")
 
-# line continuation; continuing a print (you should never need to scroll to the right!)
+# line continuation; continuing a print on the same line (you should never need to scroll to the right!)
 #   repl.it will wrap lines for you if you enable that feature
 #   including end="" as the final argument in a print function removes the implicit new line character included in a print statement
 # e.g.,
 print ("This is line 1, ", end="") 
-print ("This is line 2,", end=" ")
+print ("This is line 2,", end=' ')
 print ("This is line 3.")
 print("This is line 4.")
 
@@ -53,7 +54,7 @@ print("This is line 4.")
 #   print() can accept unlimited arguments; input() only accepts 1 argument
 print("Hello, World." , "How are you?")
 input("Press enter to exit.")
-# input("Press enter to exit." , "Please.")
+# input("Press enter to exit." , "Please.") # error
 
 # ESCAPE SEQUENCES - characters used inside of strings to gain more control over the behavior of the text.
 #   \t (tab)
@@ -72,5 +73,3 @@ print ("Mr. C said, \"Hello, class!\"")
 print ()
 
 # CHALLENGE: Go back and re-try the printing challenge prompts 
-
-input("\n\nPress enter to exit.") 
