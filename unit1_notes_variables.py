@@ -104,5 +104,10 @@ print(num2 + num2)
 
 print("The result of", num, "+", num2, "= " + str(num + num2))
 
+# CHALLENGE: Ask ask the user for thier name and age and store each in a variable.  Display
+#     the following message in a table: "Name: <user_name>
+#                                        Age:  <user_age>"
+#     Extension: calculate and display how many years until they turn 65 years old
+
 # !!! do variable tracing programs using slides
  
