@@ -94,10 +94,15 @@ print("Hello," , first , middle , last + "!")
 #   int() converts to an int
 #   float() converts to a float
 
-num = int(input("Enter a number: "))    # nesting functions - one inside another
-# num = int(num)
-# num = float(num)
+num = input("Enter a number: ")
+num = int(num)
 print(num + num)
+
+num2 = float(input("Enter a number: "))    # nesting functions - one inside another
+
+print(num2 + num2)
+
+print("The result of", num, "+", num2, "= " + str(num + num2))
 
 # !!! do variable tracing programs using slides
  
