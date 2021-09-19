@@ -94,8 +94,8 @@ print("Hello," , first , middle , last + "!")
 #   int() converts to an int
 #   float() converts to a float
 
-num = input("Enter a number: ")
-num = int(num)
+num = input("Enter a number: ")  # num stores a string
+num = int(num)                   # num stores an int
 print(num + num)
 
 num2 = float(input("Enter a number: "))    # nesting functions - one inside another
@@ -108,6 +108,13 @@ print("The result of", num, "+", num2, "= " + str(num + num2))
 #     the following message in a table: "Name: <user_name>
 #                                        Age:  <user_age>"
 #     Extension: calculate and display how many years until they turn 65 years old
+
+name = input("What is your name? ")
+age = int(input("What is your age? "))
+print("Name:\t\t\t" + name)
+print("Age:\t\t\t" + str(age))
+
+print(name, "is", age, "years old and will retire at age 65 in", 65 - age, "years.")
 
 # !!! do variable tracing programs using slides
  
