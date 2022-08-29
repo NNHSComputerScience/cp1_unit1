@@ -49,6 +49,7 @@ print ("This is line 2,", end=' ')
 print ("This is line 3.")
 print("This is line 4.")
 
+# ARGUMENT - a value(s) passed to a function or method (inside the parentheses) and separated by commas.
 # adding more than 1 argument
 #   some functions can accept more than 1 argument
 #   print() can accept unlimited arguments; input() only accepts 1 argument
