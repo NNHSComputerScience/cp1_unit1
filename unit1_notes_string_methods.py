@@ -5,10 +5,10 @@ Title: Unit 1 Notes: String methods & augmented assignment operators
 Description: Running methods on strings and better ways to write operators.
 """
 
-# OBJECT - the thing (String in this case) on which you call the method (referenced by a variable) 
+# OBJECT - an entity in a program that can be manipulted using methods (String in this case) 
 # METHOD - procedure you are calling on an object to manipulate it (parentheses are required) 
 # STRING METHODS - methods that allows us to obtain new string values from existing string values
-# DOT NOTATION: <object's variable name>.<method name>(<potential arguments>)
+# DOT NOTATION: <object>.<method name>(<potential arguments>)
 
 my_string = "hello, world."
 my_string = my_string.upper()
