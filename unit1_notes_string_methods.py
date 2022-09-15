@@ -1,14 +1,13 @@
 """
 Name: Mr. Callaghan
-Date:
-Title: Unit 1 Notes: String methods & augmented assignment operators
+Title: String methods & augmented assignment operators
 Description: Running methods on strings and better ways to write operators.
 """
 
 # OBJECT - an entity in a program that can be manipulted using methods (String in this case) 
 # METHOD - procedure you are calling on an object to manipulate it (parentheses are required) 
 # STRING METHODS - methods that allows us to obtain new string values from existing string values
-# DOT NOTATION: <object>.<method name>(<potential arguments>)
+# DOT NOTATION - <object>.<method>(<potential arguments>)
 
 my_string = "hello, world."
 my_string = my_string.upper()
@@ -44,7 +43,7 @@ name = input("What is your name: ").title() # chaining methods can save some typ
 # name = name.title()
 print(name)
 
-# DO THE FOLLOWING IN PEAR DECK:
+# !!! DO THE FOLLOWING IN PEAR DECK:
 '''
 Test Question 1 - In the assignment statement above, identify the argument. 
    "What is your name: " 
@@ -67,23 +66,24 @@ Test Question 1 - In the assignment statement above, identify the argument.
 origPrice = float(input('Enter the original price: $'))
 discount = float(input('Enter discount percentage: '))
 
+# !!! Fill in the rest and have students try to figure out the formula for this calculation in pairs on scratch paper.
+# !!!    Suggest working with sample values (e.g. $100 discounted by 20% is $80)
 # CALCULATIONS
-newPrice = (1 - discount/100)*origPrice
+newPrice = (1 - discount/100) * origPrice
 
 # OUTPUT
-calculation = '${} discounted by {}% is ${}.'.format(origPrice, discount, newPrice)
+calculation = '${:,.2f} discounted by {}% is ${:,.2f}.'.format(origPrice, discount, newPrice)
 print(calculation) 
 
 # Formatting currency in Python
 #  , is thousands separator; .2f stands for two decimal float
-amount = 123456.78
-currency = "${:,.2f}".format(amount)  
-print(currency)
+
 
 # The .format() string method has been upgraded in recent versions of Python with f-strings.
 calculation = f'${origPrice:,.2f} discounted by {discount}% is ${newPrice:,.2f}.'
 print(calculation) 
-print(f"f-strings can even evaluate expressions: {10 * 10}")
+
+print(f"\nf-strings can even evaluate expressions!: {10 * 10}")
 
 # Python has certain built-in functions which are always available (google "Python docs built-in functions")
 #    e.g. print, input, int, float, str, round, and abs can be used in any program
@@ -113,7 +113,7 @@ total %= 10
 print(total)
 
 
-# DO THE FOLLOWING IN PEAR DECK:
+# !!! DO THE FOLLOWING IN PEAR DECK:
 '''
 Test Question 4: What is total printed at the end of the following code? 
 value1 = 5 
