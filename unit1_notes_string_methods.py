@@ -62,9 +62,15 @@ Test Question 1 - In the assignment statement above, identify the argument.
 # STRING FORMATTING - .format() method improves the ability to work with strings 
 #   and other data types. Python has fill-in-the-braces format, similar to 
 #   fill-in-the-blank questions.
+
+# INPUTS
 origPrice = float(input('Enter the original price: $'))
 discount = float(input('Enter discount percentage: '))
+
+# CALCULATIONS
 newPrice = (1 - discount/100)*origPrice
+
+# OUTPUT
 calculation = '${} discounted by {}% is ${}.'.format(origPrice, discount, newPrice)
 print(calculation) 
 
@@ -99,6 +105,13 @@ total *= 10
 print (total)
 total -= 10
 print(total)
+total /= 10
+print(total)
+total //= 10
+print(total)
+total %= 10
+print(total)
+
 
 # DO THE FOLLOWING IN PEAR DECK:
 '''
