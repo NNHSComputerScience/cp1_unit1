@@ -1,16 +1,12 @@
 # hello_world.py  (name of the current file we are writing in)
-# import hello_world  (how we run our code, the hello_world.py file, from the main.py file in replit; main.py will always be executed when you press "run")
+# import hello_world  (how we run our code; the hello_world.py file, from the main.py file in replit; main.py will always be executed when you press "run")
 # Python files end in the .py file extension and should not include any spaces in the filename
 
 """
 Name: Mr. Callaghan
-Date: 9/5/17
-Title: Unit 1: Getting Started
+Title: Hello, world.
 Description: Demonstrates Python basics and how to print to the screen.
 """ 
-# This is a single-line comment in Python. It will not show up on our output.  
-#   The header of the document is a multi-line comment (surrounded by """)
-#   Comments help us mark up our code with notes to ourselves and others.
 
 # Python has many features that make it desirable:
 #   - clean, simple syntax make it popular with beginners 
