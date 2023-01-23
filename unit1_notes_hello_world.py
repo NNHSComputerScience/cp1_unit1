@@ -16,8 +16,7 @@ Description: Demonstrates Python basics and how to print to the screen.
 #   - practical due to its wide adoption and variety of libraries
 
 '''
-The PYTHON SHELL (or CONSOLE) is the window that has the Python version number in  repl.it. 
-It is where we see the output after we run a program.
+The CONSOLE is the window where we see the output after we run a program.
 Use it to test code snippets immediately; not meant to write and save programs. 
 
 The CODE EDITOR is the main window where we write and save our programs.
