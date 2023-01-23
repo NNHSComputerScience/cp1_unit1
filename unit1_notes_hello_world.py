@@ -15,8 +15,6 @@ Description: Demonstrates Python basics and how to print to the screen.
 #   - open source
 #   - practical due to its wide adoption and variety of libraries
 
-# IDLE is the default Python IDE. We will use repl.it, a cloud IDE.
-
 '''
 The PYTHON SHELL (or CONSOLE) is the window that has the Python version number in  repl.it. 
 It is where we see the output after we run a program.
