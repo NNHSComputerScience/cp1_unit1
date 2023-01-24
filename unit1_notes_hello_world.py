@@ -30,8 +30,12 @@ The file name defaults to main.py when you open a new repl.it project.
 print("Hello, World.") # print() = function ; "Hello, World." = argument(string value)
 
 # FUNCTION - sub-routine, or mini-program, that goes and accomplishes some task for us (e.g. print())
-# ARGUMENT - information you send into a function (e.g. "Hello, World.")
 # STRING - series of characters enclosed in quotes (more to come...) (e.g. "Hello, World")
+# ARGUMENT - information you send into a function or method, inside the parentheses (e.g. "Hello, World.")
+#   some functions can accept more than 1 argument
+#   print() can accept unlimited arguments (separated by commas)
+
+print("Hello", "Hello, again", "Hello a third time", "etc.")
 
 """
 CHALLENGE: print the following:
@@ -54,8 +58,7 @@ print()
 #   e.g. 
 #   #prnt() # NameError: name 'prnt' is not defined
 
-# forgeting to close parentheses is a common syntax error
-#		e.g. SyntaxError: invalid syntax with a misleading line number
-# print("Hello, world"
+# forgeting to close parentheses or quotations is a common syntax error in this class!
 
-print("Hello again.")
+# print("Hello, world"
+# print("Hello, world)
