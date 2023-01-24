@@ -1,13 +1,11 @@
 """
 Name: Mr. Callaghan
-Date:
 Title: Unit 1 notes - printing strings
 Description: Printing strings to the console and escape sequences
 """
 
 # Printing String Values
-# STRING - Our first 'type' of value in Python.  It is a series of characters
-#       surrounded by single, double, or triple quotes.
+# STRING - Our first 'type' of value in Python.  It is a series of characters surrounded by single, double, or triple quotes.
 # TYPE - A category of data in a programming langauge that determines what kinds of operations can be performed.
 #      Classes, like the Turtle class, are types.
 # The type() function will return the type of a value
@@ -49,13 +47,10 @@ print ("This is line 2,", end=' ')
 print ("This is line 3.")
 print("This is line 4.")
 
-# ARGUMENT - a value(s) passed to a function or method (inside the parentheses) and separated by commas.
-# adding more than 1 argument
-#   some functions can accept more than 1 argument
-#   print() can accept unlimited arguments; input() only accepts 1 argument
-print("Hello, World." , "How are you?")
-input("Press enter to exit.")
-# input("Press enter to exit." , "Please.") # error
+# input function - pauses execution and waits for the user to type and press enter
+#      unlike print(), input() accepts only one arguement
+input("Press enter to comtinue...")
+# input("Press enter to continue..." , "Please.") # error
 
 # ESCAPE SEQUENCES - characters used inside of strings to gain more control over the behavior of the text.
 #   \t (tab)
