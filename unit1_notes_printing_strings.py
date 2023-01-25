@@ -38,16 +38,14 @@ print(
 )
 print ()
 
-# line continuation; continuing a print on the same line (you should never need to scroll to the right!)
-#   repl.it will wrap lines for you if you enable that feature
-#   including end="" as the final argument in a print function removes the implicit new line character included in a print statement
-# e.g.,
+# line continuation - including end="" as the final argument to a print function removes the implicit new line character included in a print statement
+#      e.g.,
 print ("This is line 1, ", end="") 
 print ("This is line 2,", end=' ')
 print ("This is line 3.")
 print("This is line 4.")
 
-# input function - pauses execution and waits for the user to type and press enter
+# input function - also displays to the console, but pauses execution and waits for the user to type and press enter
 #      unlike print(), input() accepts only one arguement
 input("Press enter to comtinue...")
 # input("Press enter to continue..." , "Please.") # error
