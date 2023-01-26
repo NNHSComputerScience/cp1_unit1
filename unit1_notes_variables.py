@@ -49,6 +49,9 @@ print("Printed with a comma:", first_name, last_name)
 name = first_name + " " + last_name
 print("Printed with concatenation:", name)
 
+# string repetition
+print("happy" * 100)
+
 # !!! Instructor note: Do Peer instruction 2.1 & 2.2
 
 # expressions will always be evaluated before they are passed into a function
