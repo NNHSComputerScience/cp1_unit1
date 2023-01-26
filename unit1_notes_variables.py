@@ -31,6 +31,11 @@ name = "Python" # we can't get "Monty" back!
 # ASSIGNMENT OPERATOR: = (equals sign); assigns values from right to left ONLY 
 
 result = "0"	# string
+print(result)
+result = 3 # int
+print(result)
+
+# !!! Instructor note: Do peer instrution question #1
 
 # INPUT function - Pauses program execution and gets typed text from the user of our program. Returns it to you as a string.
 #    Only accepts 1 string argument, which should be a prompt to the user on what to type. User presses 'Enter" when done typing.
@@ -42,10 +47,13 @@ last_name = input("What is your last name? ")
 
 name = first_name + " " + last_name
 
+# expressions will always be evaluated before they are passed into a function
 print("\nWelcome to the calculator program", name + "!")
 
 # using a comma - separates arguments & inserts a space
 # using concatenation - doesn't insert a space & combines strings
+
+# !!! Instructor note: Do Peer instruction 2.1 & 2.2
 
 # Numbers in Python - 2 new TYPES:
 #   INTEGER(int) - whole numbers, no decimal point 
