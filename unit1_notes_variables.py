@@ -42,10 +42,12 @@ print(result)
 #    Tip: Including a space at the end of your string argument makes the prompt more user-friendly.
 first_name = input("What is your first name? ")
 last_name = input("What is your last name? ")
+print("Printed with a comma:", first_name, last_name)
 
 # CONCATENATION: Two strings combined into one using the plus sign.
 
 name = first_name + " " + last_name
+print("Printed with concatenation:", name)
 
 # expressions will always be evaluated before they are passed into a function
 print("\nWelcome to the calculator program", name + "!")
