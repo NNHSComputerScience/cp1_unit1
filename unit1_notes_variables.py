@@ -79,6 +79,8 @@ num2 = float(input("Please enter your second number: ")) # float
 
 input("\n\nPress enter to process calculations...")
 print("---------------------------------------")
+num1 = 0
+num2 = 0
 # Math Operators:
 #   + , - , / , //, * , ** , % 
 
