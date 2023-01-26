@@ -19,7 +19,7 @@ Description: Working with fundametal data types and operations in Python. Storin
 #     - names that begin with an underscore have a special meaning
 #     - don’t begin with a capital letter 
 #  - Consider the trade-off of long names
-#   !!! review slides on variables:
+#   !!! Instructor note: review slides on variables
 
 name = "Monty"  # read as: assign the string value "Monty" to variable "name"
 
@@ -49,13 +49,13 @@ print("Printed with a comma:", first_name, last_name)
 name = first_name + " " + last_name
 print("Printed with concatenation:", name)
 
+# !!! Instructor note: Do Peer instruction 2.1 & 2.2
+
 # expressions will always be evaluated before they are passed into a function
 print("\nWelcome to the calculator program", name + "!")
 
 # using a comma - separates arguments & inserts a space
 # using concatenation - doesn't insert a space & combines strings
-
-# !!! Instructor note: Do Peer instruction 2.1 & 2.2
 
 # Numbers in Python - 2 new TYPES:
 #   INTEGER(int) - whole numbers, no decimal point 
@@ -108,4 +108,4 @@ print(num1, "%", num2, "=", result)
 
 print("\nThanks for using the Python calculator. Re-run program for new numbers.")
 
-# !!! do variable tracing programs using slides
+# !!! Instructor note: do variable tracing programs using slides
