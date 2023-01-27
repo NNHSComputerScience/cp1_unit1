@@ -113,4 +113,5 @@ print(num1, "%", num2, "=", result)
 
 print("\nThanks for using the Python calculator. Re-run program for new numbers.")
 
-# !!! Instructor note: do variable tracing programs using slides
+# !!! Instructor note: Do Peer instruction 3.1 & 3.2; optionally do variable tracing programs
+
