@@ -9,11 +9,23 @@ Description: Running methods on strings and better ways to write operators.
 # STRING METHODS - methods that allows us to obtain new string values from existing string values
 # DOT NOTATION - <object>.<method>(<potential arguments>)
 
-my_string = "hello, world."
-my_string = my_string.upper()
-print(my_string)
+name = "Monty python"
+print(name)
+name_upper = name.upper()
+print(name_upper)
+name_lower = name.lower()
+print(name_lower)
+name_title = name.title()
+print(name_title)
+name_swap = name.swapcase()
+print(name_swap)
+name_replace = name.replace("o", "i")
+print(name_replace)
+print("Original name:", name)
+# name remains its original value; methods return new strings rather than changing the exisiting string
+# RETURN VALUE - value received back after calling a function or method. 
 
-'''
+'''  OPTIONAL TO SHOW IN SHELL
 Type in shell:
 >>> name = "Monty python"
 >>> name
@@ -35,25 +47,13 @@ Type in shell:
 'MONTY PYTHON'
 ''' 
 
-# RETURN VALUE - value received back after calling a function or method. 
-
 # handling user input with string methods
 name = input("What is your name: ").title() # chaining methods can save some typing
 #name.title() # must assing the new string!
 # name = name.title()
 print(name)
 
-# !!! DO THE FOLLOWING IN PEAR DECK:
-'''
-Test Question 1 - In the assignment statement above, identify the argument. 
-   "What is your name: " 
- Test Question 2 - In the assignment statement above, identify the method. 
-   .title() 
- Test Question 3 - In the assignment statement above, identify the return value. 
-    whatever the user types in converted to title format; the input function
-    returns whatever the user types in and the string method returns that value
-    converted to title format and assigns it to name.
-'''
+# !!! DO PEER INSTRUCTION #4
 
 # Python Documentation for The Python Standard Library (python.org) is the official reference for language features.
 #   Google 'python docs' followed by the documentation you are looking for. (e.g. "Python docs String")
@@ -113,14 +113,4 @@ total %= 10
 print(total)
 
 
-# !!! DO THE FOLLOWING IN PEAR DECK:
-'''
-Test Question 4: What is total printed at the end of the following code? 
-value1 = 5 
-value2 = 10 
-total = 0 
-total += value1   # 5
-total -= total    # 0
-total *= value2   # 0 
-# print (total)
-'''
+# !!! DO PEER INSTRUCTION #5
