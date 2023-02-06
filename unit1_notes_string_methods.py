@@ -58,7 +58,7 @@ print(name)
 # Python Documentation for The Python Standard Library (python.org) is the official reference for language features.
 #   Google 'python docs' followed by the documentation you are looking for. (e.g. "Python docs String")
 
-# STRING FORMATTING - .format() method improves the ability to work with strings 
+# STRING FORMATTING - .format() method and f-strings improves the ability to work with strings 
 #   and other data types. Python has fill-in-the-braces format, similar to 
 #   fill-in-the-blank questions.
 
@@ -72,12 +72,9 @@ discount = float(input('Enter discount percentage: '))
 newPrice = (1 - discount/100) * origPrice
 
 # OUTPUT
-calculation = '${:,.2f} discounted by {}% is ${:,.2f}.'.format(origPrice, discount, newPrice)
-print(calculation) 
 
 # Formatting currency in Python
 #  , is thousands separator; .2f stands for two decimal float
-
 
 # The .format() string method has been upgraded in recent versions of Python with f-strings.
 calculation = f'${origPrice:,.2f} discounted by {discount}% is ${newPrice:,.2f}.'
