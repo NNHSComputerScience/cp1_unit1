@@ -53,7 +53,7 @@ name = input("What is your name: ").title() # chaining methods can save some typ
 # name = name.title()
 print(name)
 
-# !!! DO PEER INSTRUCTION #4
+# !!! Instructor note: DO PEER INSTRUCTION #4
 
 # Python Documentation for The Python Standard Library (python.org) is the official reference for language features.
 #   Google 'python docs' followed by the documentation you are looking for. (e.g. "Python docs String")
@@ -110,4 +110,4 @@ total %= 10
 print(total)
 
 
-# !!! DO PEER INSTRUCTION #5
+# !!! Instructor note: DO PEER INSTRUCTION #5
